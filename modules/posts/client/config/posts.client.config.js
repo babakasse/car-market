@@ -33,8 +33,8 @@
 
      menuService.addMenuItem('topbar', {
       title: 'Latest Posts',
-      state: 'posts.list',
-      roles: ['*']
+      state: 'posts.list'
+      //roles: ['*']
     });
 
      menuService.addMenuItem('topbar', {
@@ -42,5 +42,25 @@
       state: 'posts.create',
       roles: ['user']
     });
+
+     /* menuService.addMenuItem('topbar', {
+      title: 'Carrosserie',
+      state: 'posts.list'
+    });
+
+     menuService.addMenuItem('topbar', {
+      title: 'Moteur',
+      state: 'posts.list'
+    });
+
+     menuService.addMenuItem('topbar', {
+      title: 'Contacts',
+      state: 'posts.list'
+    });
+
+     menuService.addMenuItem('topbar', {
+      title: 'A Propos',
+      state: 'posts.list'
+    }); */
   }
 }());
